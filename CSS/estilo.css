@@ -1,0 +1,222 @@
+.gridOcc {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+  grid-template-areas: "img1 gen gen" "img1 comp comp" "img1 fun fun"; }
+
+.imgFront {
+  grid-template-areas: img1; }
+
+.genOcc {
+  grid-template-areas: gen; }
+
+.comOcc {
+  grid-template-areas: comp; }
+
+.funOcc {
+  grid-template-areas: fun; }
+
+.vistasOcc {
+  grid-template-areas: img2; }
+
+.modalmask {
+  position: fixed;
+  font-family: Papyrus, Arial, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 99999;
+  opacity: 0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none; }
+
+.modalmask:target {
+  opacity: 1;
+  pointer-events: auto; }
+
+.modalbox {
+  width: 70%;
+  position: relative;
+  padding: auto;
+  background: #fff;
+  border-radius: 10%;
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in; }
+
+.movedown {
+  margin: 0 auto; }
+
+.rotate {
+  margin: 10% auto;
+  -webkit-transform: scale(-5, -5);
+  transform: scale(-5, -5); }
+
+.resize {
+  margin: 10% auto;
+  width: 0;
+  height: 0; }
+
+.modalmask:target .movedown {
+  margin: 10% auto; }
+
+.modalmask:target .rotate {
+  transform: rotate(360deg) scale(1, 1);
+  -webkit-transform: rotate(360deg) scale(1, 1); }
+
+.modalmask:target .resize {
+  width: 70%;
+  height: auto; }
+
+body {
+  background-color: #dff1f1;
+  font-family: Papyrus, Arial, Helvetica, sans-serif;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+header {
+  background-color: #c0d8d6;
+  width: 70%;
+  text-align: center;
+  border-style: groove;
+  margin: auto; }
+
+h2 {
+  background-color: #c0d8d6;
+  width: 70%;
+  text-align: center;
+  border-style: none;
+  margin: auto; }
+
+button {
+  border-style: groove;
+  padding: 10px;
+  background-color: #c0d8d6;
+  margin: auto;
+  text-align: center;
+  row-gap: 10%;
+  border-radius: 5%;
+  text-align: wrap text;
+  padding: auto; }
+  button:hover {
+    background-color: #7aa0f9;
+    transform: scale(1.2, 1.2); }
+
+div {
+  width: 70%;
+  text-align: center;
+  margin: auto;
+  gap: 30px;
+  border-style: none;
+  contain: center;
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+nav {
+  margin: auto;
+  text-align: center;
+  gap: 10px;
+  padding-top: 10px;
+  transition: 2s; }
+  nav:hover {
+    transform: scale(1.2, 1.2);
+    color: #7aa0f9;
+    text-align: center; }
+
+footer {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding-top: 10px; }
+
+img {
+  margin: auto;
+  contain: center;
+  width: 30%; }
+  img:hover {
+    transition: all, 2s;
+    border-radius: 10%;
+    scale: 2, 2;
+    border-style: groove; }
+
+.btn-group {
+  border-style: groove;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  row-gap: 10%;
+  border-radius: 5%;
+  text-align: wrap text;
+  padding: auto;
+  width: 50%; }
+  .btn-group:hover {
+    transform: scale(1.2, 1.2); }
+
+h3 {
+  text-align: center;
+  padding-top: 20px; }
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0); }
+  100% {
+    transform: translateX(calc(-250px * 7)); } }
+
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 50%; }
+  .slider::before, .slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 200px;
+    position: absolute;
+    width: 200px;
+    z-index: 2; }
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg); }
+  .slider::before {
+    left: 0;
+    top: 0; }
+  .slider .slide-track {
+    animation: scroll 17s linear infinite;
+    display: flex;
+    width: calc(250px * 14); }
+  .slider .slide {
+    height: 200px;
+    width: 50%; }
+
+form {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  padding-top: 10px; }
+
+label {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  padding-top: 20px; }
+
+.comment {
+  height: 100px;
+  width: 70vh; }
+
+input {
+  text-align: center; }
+
+ol {
+  list-style-type: none; }
