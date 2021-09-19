@@ -56,7 +56,7 @@ div{
     padding-top: 15px;
     padding-bottom: 15px;
 }    
-nav{
+p{
     margin: auto;
     text-align: center;
     gap: 10px;
@@ -80,11 +80,10 @@ img{
     margin: auto;
     contain: center;
     width: 30%;
-
-        &:hover{
-        transition:all, 2s;
+    &:hover{
+        transition: all, 2s;
         border-radius: 10%; 
-        scale: (2, 2); 
+        transform: scale(1.2, 1.2);        
         border-style: groove;
         
     }
@@ -92,7 +91,6 @@ img{
 .btn-group{
     border-style: groove;
     padding: 10px;
-    // background-color: $secondaryColor;
     margin: auto;
     text-align: center;
     row-gap: 10%;
@@ -101,7 +99,6 @@ img{
     padding: auto;
     width: 50%;  
         &:hover{
-        // background-color: $hoverColor; 
         transform: scale(1.2, 1.2);
         }
 }
