@@ -1,5 +1,4 @@
 // modales
-
 .modalmask {
   position: fixed;
   font-family: Papyrus, Arial, sans-serif;
@@ -41,7 +40,6 @@
   margin: 10% auto;
   width:0;
   height:0;
-
 }
 .modalmask:target .movedown{       
   margin:10% auto;
@@ -50,7 +48,6 @@
   transform: rotate(360deg) scale(1,1);
       -webkit-transform: rotate(360deg) scale(1,1);
 }
-
 .modalmask:target .resize{
   width: 70%;
   height:auto;

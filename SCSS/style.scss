@@ -12,7 +12,6 @@ $hoverColor: #7aa0f9;
 body{
     background-color: $primaryColor;
     font-family: Papyrus, Arial, Helvetica, sans-serif;
-    
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -31,7 +30,7 @@ h2{
     border-style: none;
     margin: auto;
 }
-
+// formato y hover de los botones
 button{
     border-style: groove;
     padding: 10px;
@@ -48,6 +47,8 @@ button{
         
         }
     }
+
+// formato para los div
 div{
     width:70%;
     text-align: center;
@@ -57,7 +58,8 @@ div{
     contain: center;
     padding-top: 15px;
     padding-bottom: 15px;
-}    
+}
+// Formato y hover de los parrafos    
 p{
     margin: auto;
     text-align: center;
@@ -70,7 +72,7 @@ p{
         text-align: center;
         }
     }
-
+// Formato para los footer
 footer{
     width: 50%;
     text-align: center;
@@ -78,6 +80,7 @@ footer{
     padding-top: 10px;
     
 }
+// Formato de las imagenes
 img{
     margin: auto;
     contain: center;
@@ -89,20 +92,8 @@ img{
         transform: scale(1.2, 1.2);
     }
 }
-.btn-group{
-    border-style: groove;
-    padding: 10px;
-    margin: auto;
-    text-align: center;
-    row-gap: 10%;
-    border-radius: 5%;
-    text-align: wrap text;
-    padding: auto;
-    width: 50%;  
-        &:hover{
-        transform: scale(1.2, 1.2);
-        }
-}
+// Formato para los botones
+
 h3{
     text-align: center;
     padding-top: 20px;
@@ -112,57 +103,7 @@ h3{
 	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
 }
 
-$animationSpeed: 17s;
-
-// Animation
-@keyframes scroll {
-	0% { transform: translateX(0); }
-	100% { transform: translateX(calc(-250px * 7))}
-}
-
-
-// Styling
-.slider {
-	background: white;
-	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
-	height: 200px;
-	margin: auto;
-	overflow:hidden;
-	position: relative;
-	width: 50%;
-	
-	&::before,
-	&::after {
-		@include white-gradient;
-		content: "";
-		height: 200px;
-		position: absolute;
-		width: 200px;
-		z-index: 2;
-	}
-	
-	&::after {
-		right: 0;
-		top: 0;
-		transform: rotateZ(180deg);
-	}
-
-	&::before {
-		left: 0;
-		top: 0;
-	}
-	
-	.slide-track {
-		animation: scroll $animationSpeed linear infinite;
-		display: flex;
-		width: calc(250px * 14);
-	}
-	
-	.slide {
-		height: 200px;
-		width: 50%;
-	}
-}
+// Estilo para la pagina de contacto
 form{
     margin: auto;
     text-align: center;
@@ -175,7 +116,6 @@ label{
     width: 90%;
     padding-top: 20px;
 }
-
 .comment{
     height: 100px;
     width: 70vh;
@@ -186,6 +126,8 @@ input{
 ol{
     list-style-type: none;
 }
+
+// Fondo y Estilo de pagina 404
 #background{
     background-image: url(https://scontent.fmex15-1.fna.fbcdn.net/v/t39.30808-6/242548647_10158086342591176_1968364485668811018_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeH6Ouh20Qw2jksCkiKKzq9yseWvJ4C_wqex5a8ngL_CpzhmDqj3PPV8l9tNwB3nScQ&_nc_ohc=ykqSyIc5ivYAX_HHcXm&tn=TsaK_0PSXhG2lUZ3&_nc_ht=scontent.fmex15-1.fna&oh=993db54e3db7fa01deaf33a4d71e813b&oe=614E5451);
     background-color: $primaryColor;
