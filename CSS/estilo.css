@@ -51,33 +51,23 @@
   width: 70%;
   height: auto; }
 
-.partesMax {
-  width: 100px;
-  height: 100px;
-  background-position: center;
-  background-size: contain;
-  background-image: url(../Assets/Maxilar/partesMax.jpeg); }
+.maxTrasnition {
+  transition: All 1.2384s ease;
+  -webkit-transition: All 1.2384s ease;
+  -moz-transition: All 1.2384s ease;
+  -o-transition: All 1.2384s ease;
+  transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
 
-.vistaInf {
-  width: 100px;
-  height: 100px;
-  background-position: center;
-  background-size: contain;
-  background-image: url(../Assets/Maxilar/vistaInf.jpeg); }
-
-.vistaMed {
-  width: 100px;
-  height: 100px;
-  background-position: center;
-  background-size: contain;
-  background-image: url(../Assets/Maxilar/vistaMed.jpeg); }
-
-.vistaMed1 {
-  width: 100px;
-  height: 100px;
-  background-position: center;
-  background-size: contain;
-  background-image: url(../Assets/Maxilar/vistaMed1.jpeg); }
+.maxTrasnition:hover {
+  transform: rotate(0deg) scale(1.2) skew(1deg) translate(0px);
+  -webkit-transform: rotate(0deg) scale(1.2) skew(1deg) translate(0px);
+  -moz-transform: rotate(0deg) scale(1.2) skew(1deg) translate(0px);
+  -o-transform: rotate(0deg) scale(1.2) skew(1deg) translate(0px);
+  -ms-transform: rotate(0deg) scale(1.2) skew(1deg) translate(0px); }
 
 @media only screen and (max-width: 360px) {
   .container {
@@ -189,9 +179,6 @@ label {
 
 input {
   text-align: center; }
-
-ol {
-  list-style-type: none; }
 
 #background {
   background-image: url(https://scontent.fmex15-1.fna.fbcdn.net/v/t39.30808-6/242548647_10158086342591176_1968364485668811018_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeH6Ouh20Qw2jksCkiKKzq9yseWvJ4C_wqex5a8ngL_CpzhmDqj3PPV8l9tNwB3nScQ&_nc_ohc=ykqSyIc5ivYAX_HHcXm&tn=TsaK_0PSXhG2lUZ3&_nc_ht=scontent.fmex15-1.fna&oh=993db54e3db7fa01deaf33a4d71e813b&oe=614E5451);

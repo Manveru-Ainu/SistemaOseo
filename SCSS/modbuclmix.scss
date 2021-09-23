@@ -52,14 +52,23 @@
   width: 70%;
   height:auto;
 }
+// Transitiones para imagenes de Maxilar
 
-@each $vistasMax in partesMax, vistaInf, vistaMed, vistaMed1 {
-  .#{$vistasMax}{
-    width: 100px;
-    height: 100px;
-    background-position: center;
-    background-size: contain;
-    background-image: url(../Assets/Maxilar/#{$vistasMax}.jpeg);
+.maxTrasnition{
+  transition:All 1.2384s ease;
+  -webkit-transition:All 1.2384s ease;
+  -moz-transition:All 1.2384s ease;
+  -o-transition:All 1.2384s ease;
+  transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
   }
-}
-
+  .maxTrasnition:hover{
+  transform: rotate(0deg) scale(1.2) skew(1deg) translate(0px);
+  -webkit-transform: rotate(0deg) scale(1.2) skew(1deg) translate(0px);
+  -moz-transform: rotate(0deg) scale(1.2) skew(1deg) translate(0px);
+  -o-transform: rotate(0deg) scale(1.2) skew(1deg) translate(0px);
+  -ms-transform: rotate(0deg) scale(1.2) skew(1deg) translate(0px);
+  }
