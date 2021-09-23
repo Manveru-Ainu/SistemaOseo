@@ -1,27 +1,7 @@
-// Grid de Hueso-Pagina Occipital
-.gridOcc{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 10px;
-    column-gap: 10px;
-    grid-template-areas: 
-    "img1 gen gen"
-    "img1 comp comp"
-    "img1 fun fun";
-}
-.imgFront{
-    grid-template-areas: img1;
-}
-.genOcc{
-    grid-template-areas: gen;
-}
-.comOcc{
-    grid-template-areas: comp;
-}
-.funOcc{
-    grid-template-areas: fun;
-}
-.vistasOcc{
-    grid-template-areas: img2;
-}
+// Grid de Hu8eso Cigomatico
+
+
+
+
+
+// Grid de Hueso Maxilar
