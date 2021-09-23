@@ -85,7 +85,7 @@ footer{
 img{
     margin: auto;
     contain: center;
-    width: 30%;
+    width: 50%;
     border-style: groove;
     &:hover{
         transition: all, 2s;
@@ -129,7 +129,6 @@ ol{
     background-repeat: round;
     display: block;
     margin: auto;
-
 }
 .page{
     text-align: center;

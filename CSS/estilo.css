@@ -120,7 +120,7 @@ footer {
 img {
   margin: auto;
   contain: center;
-  width: 30%;
+  width: 50%;
   border-style: groove; }
   img:hover {
     transition: all, 2s;
