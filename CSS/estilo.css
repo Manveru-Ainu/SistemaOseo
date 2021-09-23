@@ -115,13 +115,7 @@
   #maxTwo {
     grid-area: maxTwo; }
   #maxThree {
-    grid-area: maxThree; }
-  .genNAsal:hover {
-    transform: rotate(4deg) scale(1) skew(1deg) translate(-97px);
-    -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(-97px);
-    -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(-97px);
-    -o-transform: rotate(4deg) scale(1) skew(1deg) translate(-97px);
-    -ms-transform: rotate(4deg) scale(1) skew(1deg) translate(-97px); } }
+    grid-area: maxThree; } }
 
 body {
   background-color: #dff1f1;
@@ -242,8 +236,8 @@ input {
   -ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
 
 .genNAsal:hover {
-  transform: rotate(0deg) scale(1) skew(1deg) translate(89px);
-  -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(89px);
-  -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(89px);
-  -o-transform: rotate(0deg) scale(1) skew(1deg) translate(89px);
-  -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(89px); }
+  transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+  -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+  -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+  -o-transform: rotate(0deg) scale(1) skew(1deg) translate(0px);
+  -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(0px); }

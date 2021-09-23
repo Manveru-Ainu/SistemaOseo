@@ -6,6 +6,7 @@
     $ResponsiveSecondary:#c0d8d6;
     $Responsivebtn:#7aa0f9;
     $ResponsiveHover:#467777;   
+
     .container{
     background-color: $Resopnsive320    
     }
@@ -47,15 +48,5 @@ button{
     #maxThree{
         grid-area: maxThree;
     }
-// responsive parrafos nasal
-.genNAsal:hover{
-    transform: rotate(4deg) scale(1) skew(1deg) translate(-97px);
-    -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(-97px);
-    -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(-97px);
-    -o-transform: rotate(4deg) scale(1) skew(1deg) translate(-97px);
-    -ms-transform: rotate(4deg) scale(1) skew(1deg) translate(-97px);
-    }
-
-
 
 }
