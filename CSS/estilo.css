@@ -55,6 +55,20 @@
   .container {
     background-color: #f1f0f0; } }
 
+button {
+  border-style: groove;
+  padding: 10px;
+  background-color: #7aa0f9;
+  margin: auto;
+  text-align: center;
+  row-gap: 10%;
+  border-radius: 5%;
+  text-align: wrap text;
+  padding: auto; }
+  button:hover {
+    background-color: #467777;
+    transform: scale(1.2, 1.2); }
+
 body {
   background-color: #dff1f1;
   font-family: Papyrus, Arial, Helvetica, sans-serif;

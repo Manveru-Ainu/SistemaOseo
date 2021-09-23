@@ -1,4 +1,7 @@
 $Resopnsive320: rgb(241, 240, 240);
+$ResponsiveSecondary:#c0d8d6;
+$Responsivebtn:#7aa0f9;
+$ResponsiveHover:#467777;
 
 // Responsive para pantallas 320px
 @media only screen and (max-width: 360px){
@@ -7,3 +10,18 @@ $Resopnsive320: rgb(241, 240, 240);
     
     }
 }
+button{
+    border-style: groove;
+    padding: 10px;
+    background-color: $Responsivebtn;
+    margin: auto;
+    text-align: center;
+    row-gap: 10%;
+    border-radius: 5%;
+    text-align: wrap text;
+    padding: auto;  
+        &:hover{
+        background-color: $ResponsiveHover; 
+        transform: scale(1.2, 1.2);         
+        }
+    }
