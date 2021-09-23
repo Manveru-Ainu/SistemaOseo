@@ -53,5 +53,13 @@
   height:auto;
 }
 
-
+@each $vistasMax in partesMax, vistaInf, vistaMed, vistaMed1 {
+  .#{$vistasMax}{
+    width: 100px;
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    background-image: url(../Assets/Maxilar/#{$vistasMax}.jpeg);
+  }
+}
 

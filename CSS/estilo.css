@@ -51,6 +51,34 @@
   width: 70%;
   height: auto; }
 
+.partesMax {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: contain;
+  background-image: url(../Assets/Maxilar/partesMax.jpeg); }
+
+.vistaInf {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: contain;
+  background-image: url(../Assets/Maxilar/vistaInf.jpeg); }
+
+.vistaMed {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: contain;
+  background-image: url(../Assets/Maxilar/vistaMed.jpeg); }
+
+.vistaMed1 {
+  width: 100px;
+  height: 100px;
+  background-position: center;
+  background-size: contain;
+  background-image: url(../Assets/Maxilar/vistaMed1.jpeg); }
+
 @media only screen and (max-width: 360px) {
   .container {
     background-color: #f1f0f0; } }
