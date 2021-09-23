@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./CSS/estilo.css">
     <title>Hueso Nasal</title>
 </head>
-<body>
+<body class="container">
     <!-- Aqui va el titulo de la pagina -->
     <header>
         <h1>Anatomia Osea del Craneo</h1>
@@ -26,45 +26,19 @@
     </div>
     <!-- Esta seccion es para el acrodeon de informacion  -->
     <main>
-        <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Generalidades:
-                    </button>
-                </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                        <strong>Generalidades del Hueso Nasal</strong> El hueso nasal (hueso propio de la nariz) es un hueso de la cara, par, corto y compacto, en forma cuadrilátero, con dos caras (anterior y posterior) y cuatro bordes (superior, inferior, lateral o externo y medial o interno). Ambos huesos propios forman la raíz y el dorso o puente de la nariz.
-                    </div>
-                </div>
-            </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Composición:
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                    <strong>Composición del Hueso Nasal</strong> El tabique nasal está compuesto por cinco estructuras: Lámina perpendicular del hueso etmoides. Hueso vómer. Cartílago vomeronasal y septal.
-                    </div>
-                </div>
-            </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Función
-                    </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                        <strong>Funcion del Hueso Nasal</strong> Además de ser importante para la anatomía de la cara, cada hueso nasal es necesario para que se desarrolle adecuadamente la forma de la nariz, debido a que son las estructuras donde se conectan los cartílagos nasales.
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="genNAsal">
+            <h4>Generalidades:</h4>
+                <p>El hueso <strong>nasal</strong> (hueso propio de la nariz) es un hueso de la cara, par, corto y compacto, en forma cuadrilátero, con dos caras (anterior y posterior) y cuatro bordes (superior, inferior, lateral o externo y medial o interno).</p>
         </div>
+        <div>
+            <h4>Composición:</h4>
+                <strong>Composición del Hueso Nasal</strong> El tabique nasal está compuesto por cinco estructuras: Lámina perpendicular del hueso etmoides. Hueso vómer. Cartílago vomeronasal y septal.
+        </div>
+        <div>
+            <h4>Función</h4>
+                <strong>Funcion del Hueso Nasal</strong> Además de ser importante para la anatomía de la cara, cada hueso nasal es necesario para que se desarrolle adecuadamente la forma de la nariz, debido a que son las estructuras donde se conectan los cartílagos nasales.
+        </div>
+
     <!-- Aqui va informacion extra sobre el hueso -->    
     <div>
         <img src="https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2013/11/15/17/39/sn7_noseanatomy-8col.jpg" class="img-thumbnail" alt="Estructura hueso nasal">
@@ -76,12 +50,13 @@
                 Click para elegir el hueso
             </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><a href="./cigomatico.html"><button class="dropdown-item" type="button">Cigomatico</button></a></li>
                 <li><a href="./frontal.html"><button class="dropdown-item" type="button">Frontal</button></a></li>
-                <li><a href="./parietal.html"><button class="dropdown-item" type="button">Parietal</button></a></li>
-                <li><a href="./occipital.html"><button class="dropdown-item" type="button">Occipital</button></a></li>
                 <li><a href="./mandibular.html"><button class="dropdown-item" type="button">Mandibular</button></a></li>
                 <li><a href="./maxilar.html"><button class="dropdown-item" type="button">Maxilar</button></a></li>
-                <li><a href="./cigomatico.html"><button class="dropdown-item" type="button">Cigomatico</button></a></li>
+                <li><a href="./occipital.html"><button class="dropdown-item" type="button">Occipital</button></a></li>
+                <li><a href="./parietal.html"><button class="dropdown-item" type="button">Parietal</button></a></li>
+                
                 </ul>
             </div>
         </div>

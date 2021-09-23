@@ -131,3 +131,23 @@ input{
     padding: 30px;
     margin: auto;
 }
+
+// transiciones hueso nasal
+.genNAsal {
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    -ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+    }
+    .genNAsal:hover{
+    transform: rotate(0deg) scale(1) skew(1deg) translate(89px);
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(89px);
+    -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(89px);
+    -o-transform: rotate(0deg) scale(1) skew(1deg) translate(89px);
+    -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(89px);
+    }
