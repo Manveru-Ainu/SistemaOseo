@@ -1,6 +1,9 @@
+$Resopnsive320: rgb(241, 240, 240);
+
+// Responsive para pantallas 320px
 @media only screen and (max-width: 360px){
     .container{
-    background-color:rgb(241, 240, 240)  
+    background-color: $Resopnsive320
     
     }
 }
