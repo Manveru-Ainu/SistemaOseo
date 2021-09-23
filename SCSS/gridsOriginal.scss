@@ -1,1 +1,23 @@
+// grid para maxilar
 
+.maxParts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .1fr 1fr 1fr;
+    grid-template-areas: 
+    "maxTitle maxTitle"
+    "maxOne maxTwo"
+    "maxThree maxThree";
+}
+#maxTitle{
+    grid-area: maxTitle;
+}
+#maxOne{
+    grid-area: maxOne;
+}
+#maxTwo{
+    grid-area: maxTwo;
+}
+#maxThree{
+    grid-area: maxThree;
+}

@@ -1,3 +1,21 @@
+.maxParts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .1fr 1fr 1fr;
+  grid-template-areas: "maxTitle maxTitle" "maxOne maxTwo" "maxThree maxThree"; }
+
+#maxTitle {
+  grid-area: maxTitle; }
+
+#maxOne {
+  grid-area: maxOne; }
+
+#maxTwo {
+  grid-area: maxTwo; }
+
+#maxThree {
+  grid-area: maxThree; }
+
 .modalmask {
   position: fixed;
   font-family: Papyrus, Arial, sans-serif;
@@ -86,6 +104,24 @@ button {
   button:hover {
     background-color: #467777;
     transform: scale(1.2, 1.2); }
+
+.maxParts {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: .1fr 1fr 1fr 1fr;
+  grid-template-areas: "maxTitle" "maxOne"  "maxTwo" "maxThree"; }
+
+#maxTitle {
+  grid-area: maxTitle; }
+
+#maxOne {
+  grid-area: maxOne; }
+
+#maxTwo {
+  grid-area: maxTwo; }
+
+#maxThree {
+  grid-area: maxThree; }
 
 body {
   background-color: #dff1f1;
