@@ -87,7 +87,7 @@
   -o-transform: rotate(0deg) scale(1.2) skew(1deg) translate(0px);
   -ms-transform: rotate(0deg) scale(1.2) skew(1deg) translate(0px); }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 680px) {
   .container {
     background-color: #f1f0f0; }
   button {
@@ -103,19 +103,19 @@
     button:hover {
       background-color: #467777;
       transform: scale(1.2, 1.2); }
-  .maxParts {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: .1fr 1fr 1fr 1fr;
-    grid-template-areas: "maxTitle" "maxOne"  "maxTwo" "maxThree"; }
-  #maxTitle {
-    grid-area: maxTitle; }
-  #maxOne {
-    grid-area: maxOne; }
-  #maxTwo {
-    grid-area: maxTwo; }
-  #maxThree {
-    grid-area: maxThree; } }
+    button .maxParts {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: .1fr 1fr 1fr 1fr;
+      grid-template-areas: "maxTitle" "maxOne"  "maxTwo" "maxThree"; }
+    button #maxTitle {
+      grid-area: maxTitle; }
+    button #maxOne {
+      grid-area: maxOne; }
+    button #maxTwo {
+      grid-area: maxTwo; }
+    button #maxThree {
+      grid-area: maxThree; } }
 
 body {
   background-color: #dff1f1;
