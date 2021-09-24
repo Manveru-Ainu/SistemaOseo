@@ -59,7 +59,7 @@ div{
     padding-top: 15px;
     padding-bottom: 15px;
 }
-// Formato y hover de los parrafos    
+// Formato y hover de los parrafos (<p>)   
 p{
     margin: auto;
     text-align: center;
@@ -128,10 +128,9 @@ input{
 .page{
     text-align: center;
     width: 70%;
-    padding: 30px;
+    padding: 100px;
     margin: auto;
 }
-
 
 // carrusel para hueso Parietal
 .slider {
@@ -139,7 +138,6 @@ input{
     margin: auto;
     overflow: hidden;
 }
-
 .slider ul {
     display: flex;
     padding: 0;
@@ -147,16 +145,13 @@ input{
     
     animation: cambio 20s infinite alternate linear;
 }
-
 .slider li {
     width: 100%;
     list-style: none;
 }
-
 .slider img {
     width: 100%;
-}
-
+}                                 
 @keyframes cambio {
     0% {margin-left: 0;}
     20% {margin-left: 0;}
@@ -170,3 +165,10 @@ input{
     75% {margin-left: -100%;}
     100% {margin-left: -100%;}
 }
+// imagen de fondo en la pagina de contacto
+#imgContacto{
+    background-image: url(../Assets/craneo-separado.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
