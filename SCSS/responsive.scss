@@ -7,22 +7,7 @@
     $Responsivebtn:#7aa0f9;
     $ResponsiveHover:#467777;   
 
-    // @media only screen and (min-width: 320px){
-    // header{
-    //     background-color:red;
-    //     width: 70%;
-    //     text-align: center;
-    //     border-style: groove;
-    //     margin: auto;
-    // }
-        // h2{
-        //     background-color: $ResponsiveSecondary;
-        //     width: 70%;
-        //     text-align: center;
-        //     border-style: none;
-        //     margin: auto;
-        // }
-    .container{
+.container{
     background-color: $Resopnsive320    
     }
 button{
@@ -39,6 +24,7 @@ button{
         background-color: $ResponsiveHover; 
         transform: scale(1.2, 1.2);         
         }
+    }
     // grid Responsive para maxilar
     .maxParts{
         display: grid;
@@ -63,4 +49,4 @@ button{
         grid-area: maxThree;
     }
 }
-}
+

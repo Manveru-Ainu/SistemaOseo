@@ -72,3 +72,23 @@
   -o-transform: rotate(0deg) scale(1.2) skew(1deg) translate(0px);
   -ms-transform: rotate(0deg) scale(1.2) skew(1deg) translate(0px);
   }
+
+// transicion para informacion de Parietañl
+  .transPar {
+    transition:All 1s ease;
+    -webkit-transition:All 1s ease;
+    -moz-transition:All 1s ease;
+    -o-transition:All 1s ease;
+    transform: rotate(-4deg) scale(1) skew(1deg) translate(10px);
+    -webkit-transform: rotate(-4deg) scale(1) skew(1deg) translate(10px);
+    -moz-transform: rotate(-4deg) scale(1) skew(1deg) translate(10px);
+    -o-transform: rotate(-4deg) scale(1) skew(1deg) translate(10px);
+    -ms-transform: rotate(-4deg) scale(1) skew(1deg) translate(10px);
+    }
+    .transPar:hover{
+    transform: rotate(0deg) scale(1) skew(1deg) translate(-5px);
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(-5px);
+    -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(-5px);
+    -o-transform: rotate(0deg) scale(1) skew(1deg) translate(-5px);
+    -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(-5px);
+    }
