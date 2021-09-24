@@ -1,4 +1,4 @@
-// modales de hueso occipital y 
+// modales de hueso Cigomatico y occipital
 .modalmask {
   position: fixed;
   font-family: Papyrus, Arial, sans-serif;
@@ -53,7 +53,6 @@
   height:auto;
 }
 // Transitiones para imagenes de Maxilar
-
 .maxTrasnition{
   transition:All 1.2384s ease;
   -webkit-transition:All 1.2384s ease;
@@ -92,3 +91,22 @@
     -o-transform: rotate(0deg) scale(1) skew(1deg) translate(-5px);
     -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(-5px);
     }
+    // transiciones hueso nasal
+.genNAsal {
+  transition:All 1s ease;
+  -webkit-transition:All 1s ease;
+  -moz-transition:All 1s ease;
+  -o-transition:All 1s ease;
+  transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  -ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+  }
+  .genNAsal:hover{
+  transform: rotate(0deg) scale(1) skew(1deg) translate(-0px);
+  -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(-0px);
+  -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(-0px);
+  -o-transform: rotate(0deg) scale(1) skew(1deg) translate(-0px);
+  -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(-0px);
+  }
