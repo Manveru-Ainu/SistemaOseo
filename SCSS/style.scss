@@ -119,16 +119,15 @@ input{
 // Fondo y Estilo de pagina 404
 #background{
     background-image: url(https://scontent.fmex15-1.fna.fbcdn.net/v/t39.30808-6/242548647_10158086342591176_1968364485668811018_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeH6Ouh20Qw2jksCkiKKzq9yseWvJ4C_wqex5a8ngL_CpzhmDqj3PPV8l9tNwB3nScQ&_nc_ohc=ykqSyIc5ivYAX_HHcXm&tn=TsaK_0PSXhG2lUZ3&_nc_ht=scontent.fmex15-1.fna&oh=993db54e3db7fa01deaf33a4d71e813b&oe=614E5451);
-    background-color: $primaryColor;
+    // background-color: $primaryColor;
     background-size: contain;
-    background-repeat: round;
-    display: block;
-    margin: auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .page{
     text-align: center;
     width: 70%;
-    padding: 100px;
+    padding: 70px;
     margin: auto;
 }
 
