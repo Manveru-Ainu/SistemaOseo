@@ -273,8 +273,8 @@ html {
   color: #ccc;
   margin: 0; }
 
-/* html::before,
-  html::after, */
+html::before,
+html::after,
 body::before,
 body::after {
   content: "";

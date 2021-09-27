@@ -148,8 +148,8 @@ html {
 }
 
 
-/* html::before,
-  html::after, */
+html::before,
+html::after,
 body::before,
 body::after {
     content: "";
