@@ -151,10 +151,7 @@
   #maxTwo {
     grid-area: maxTwo; }
   #maxThree {
-    grid-area: maxThree; }
-  #background {
-    background-size: contain;
-    margin: auto; } }
+    grid-area: maxThree; } }
 
 body {
   background-color: #dff1f1;
@@ -252,40 +249,18 @@ label {
 input {
   text-align: center; }
 
-#background {
-  background-image: url(https://scontent.fmex15-1.fna.fbcdn.net/v/t39.30808-6/242548647_10158086342591176_1968364485668811018_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeH6Ouh20Qw2jksCkiKKzq9yseWvJ4C_wqex5a8ngL_CpzhmDqj3PPV8l9tNwB3nScQ&_nc_ohc=ykqSyIc5ivYAX_HHcXm&tn=TsaK_0PSXhG2lUZ3&_nc_ht=scontent.fmex15-1.fna&oh=993db54e3db7fa01deaf33a4d71e813b&oe=614E5451);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 70%; }
-
 html {
   margin: 0;
   height: 100%; }
 
-#error {
+.error {
   margin: 0;
   height: 100%;
   overflow: hidden;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
-  background: black;
-  color: #ccc;
   margin: 0; }
-
-html::before,
-html::after,
-body::before,
-body::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: block;
-  width: .5vmin;
-  height: .5vmin;
-  border-radius: 50%;
-  color: transparent; }
 
 html::before {
   box-shadow: 93vw 63vh 0.3vmin rgba(255, 255, 255, 0.8), 3vw 17vh 0.3vmin rgba(255, 255, 255, 0.8), 28vw 85vh 0.3vmin rgba(255, 255, 255, 0.8), 97vw 82vh 0.3vmin rgba(255, 255, 255, 0.8), 55vw 83vh 0.3vmin rgba(255, 255, 255, 0.8), 74vw 72vh 0.3vmin rgba(255, 255, 255, 0.8), 84vw 11vh 0.3vmin rgba(255, 255, 255, 0.8), 32vw 6vh 0.3vmin rgba(255, 255, 255, 0.8), 45vw 92vh 0.3vmin rgba(255, 255, 255, 0.8), 98vw 57vh 0.3vmin rgba(255, 255, 255, 0.8), 63vw 98vh 0.3vmin rgba(255, 255, 255, 0.8), 90vw 46vh 0.3vmin rgba(255, 255, 255, 0.8), 50vw 86vh 0.3vmin rgba(255, 255, 255, 0.8), 38vw 21vh 0.3vmin rgba(255, 255, 255, 0.8), 74vw 2vh 0.3vmin rgba(255, 255, 255, 0.8), 89vw 22vh 0.3vmin rgba(255, 255, 255, 0.8), 39vw 0vh 0.3vmin rgba(255, 255, 255, 0.8), 25vw 89vh 0.3vmin rgba(255, 255, 255, 0.8), 54vw 58vh 0.3vmin rgba(255, 255, 255, 0.8), 81vw 39vh 0.3vmin rgba(255, 255, 255, 0.8), 51vw 8vh 0.3vmin rgba(255, 255, 255, 0.8), 24vw 56vh 0.3vmin rgba(255, 255, 255, 0.8), 50vw 23vh 0.3vmin rgba(255, 255, 255, 0.8), 62vw 34vh 0.3vmin rgba(255, 255, 255, 0.8), 10vw 77vh 0.3vmin rgba(255, 255, 255, 0.8), 92vw 45vh 0.3vmin rgba(255, 255, 255, 0.8), 70vw 40vh 0.3vmin rgba(255, 255, 255, 0.8), 2vw 53vh 0.3vmin rgba(255, 255, 255, 0.8), 3vw 54vh 0.3vmin rgba(255, 255, 255, 0.8), 18vw 21vh 0.3vmin rgba(255, 255, 255, 0.8), 48vw 47vh 0.3vmin rgba(255, 255, 255, 0.8), 83vw 96vh 0.3vmin rgba(255, 255, 255, 0.8), 26vw 32vh 0.3vmin rgba(255, 255, 255, 0.8), 46vw 9vh 0.3vmin rgba(255, 255, 255, 0.8), 2vw 13vh 0.3vmin rgba(255, 255, 255, 0.8), 29vw 63vh 0.3vmin rgba(255, 255, 255, 0.8), 17vw 90vh 0.3vmin rgba(255, 255, 255, 0.8), 78vw 9vh 0.3vmin rgba(255, 255, 255, 0.8), 15vw 39vh 0.3vmin rgba(255, 255, 255, 0.8), 90vw 5vh 0.3vmin rgba(255, 255, 255, 0.8); }
