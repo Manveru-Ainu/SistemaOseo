@@ -153,7 +153,8 @@
   #maxThree {
     grid-area: maxThree; }
   #background {
-    background-size: contain; } }
+    background-size: contain;
+    margin: auto; } }
 
 body {
   background-color: #dff1f1;
@@ -294,3 +295,7 @@ input {
   background-image: url(../Assets/craneo-separado.jpeg);
   background-position: center;
   background-size: contain; }
+
+.navbar {
+  width: 50%;
+  margin: auto; }
