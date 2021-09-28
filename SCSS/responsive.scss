@@ -5,47 +5,32 @@
     $ResponsiveSecondary:#c0d8d6;
     $Responsivebtn:#7aa0f9;
     $ResponsiveHover:#467777;   
-
+// Color de fondo para pantallas de menos de 680px
 .container{
     background-color: $Resopnsive320    
     }
-button{
-    border-style: groove;
-    padding: 10px;
-    background-color: $Resopnsive320;
-    margin: auto;
-    text-align: center;
-    row-gap: 10%;
-    border-radius: 10%;
-    text-align: wrap text;
-    padding: auto;  
-        &:hover{
-        background-color: $ResponsiveHover; 
-        transform: scale(1.2, 1.2);         
-        }
-    }
     // grid Responsive para maxilar
-    .maxParts{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: .1fr 1fr 1fr 1fr;
-        grid-template-areas: 
-        "maxTitle"
-        "maxOne" 
-        "maxTwo"
-        "maxThree";
+.maxParts{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: .1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "maxTitle"
+    "maxOne" 
+    "maxTwo"
+    "maxThree";
     }
-    #maxTitle{
-        grid-area: maxTitle;
+#maxTitle{
+    grid-area: maxTitle;
     }
-    #maxOne{
-        grid-area: maxOne;
+#maxOne{
+    grid-area: maxOne;
     }
-    #maxTwo{
-        grid-area: maxTwo;
+#maxTwo{
+    grid-area: maxTwo;
     }
-    #maxThree{
-        grid-area: maxThree;
+#maxThree{
+    grid-area: maxThree;
     }
 }
 

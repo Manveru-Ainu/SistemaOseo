@@ -98,13 +98,6 @@
   -o-transform: rotate(-4deg) scale(1) skew(1deg) translate(10px);
   -ms-transform: rotate(-4deg) scale(1) skew(1deg) translate(10px); }
 
-.transPar:hover {
-  transform: rotate(0deg) scale(1) skew(1deg) translate(-5px);
-  -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(-5px);
-  -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(-5px);
-  -o-transform: rotate(0deg) scale(1) skew(1deg) translate(-5px);
-  -ms-transform: rotate(0deg) scale(1) skew(1deg) translate(-5px); }
-
 .genNAsal {
   transition: All 1s ease;
   -webkit-transition: All 1s ease;
@@ -126,19 +119,6 @@
 @media only screen and (max-width: 680px) {
   .container {
     background-color: #f1f0f0; }
-  button {
-    border-style: groove;
-    padding: 10px;
-    background-color: #f1f0f0;
-    margin: auto;
-    text-align: center;
-    row-gap: 10%;
-    border-radius: 10%;
-    text-align: wrap text;
-    padding: auto; }
-    button:hover {
-      background-color: #467777;
-      transform: scale(1.2, 1.2); }
   .maxParts {
     display: grid;
     grid-template-columns: 1fr;
