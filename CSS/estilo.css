@@ -153,6 +153,7 @@
   #maxThree {
     grid-area: maxThree; } }
 
+/* Estilo para body y encabezamientos de todas las paginas*/
 body {
   background-color: #dff1f1;
   font-family: Papyrus, Arial, Helvetica, sans-serif;
@@ -186,11 +187,13 @@ button {
     background-color: #7aa0f9;
     transform: scale(1.2, 1.2); }
 
+/* Estilos para la barra de navegacion entre paginas*/
 .navbar-collapse {
   margin: auto;
   text-align: center;
   border-radius: 50%; }
 
+/* formato para los div */
 div {
   width: 70%;
   text-align: center;
@@ -201,6 +204,7 @@ div {
   padding-top: 15px;
   padding-bottom: 15px; }
 
+/* Formato y hover de los parrafos (<p>)   */
 p {
   margin: auto;
   text-align: center;
@@ -212,12 +216,14 @@ p {
     color: #7aa0f9;
     text-align: center; }
 
+/*  Formato para los footer*/
 footer {
   width: 50%;
   text-align: center;
   margin: auto;
   padding-top: 10px; }
 
+/* Formato de las imagenes*/
 img {
   margin: auto;
   contain: center;
@@ -227,6 +233,7 @@ img {
     border-radius: 10%;
     transform: scale(1.2, 1.2); }
 
+/* formato para los h3*/
 h3 {
   text-align: center;
   padding-top: 20px; }
@@ -262,39 +269,15 @@ html {
   align-items: center;
   margin: 0; }
 
-html::before {
-  box-shadow: 93vw 63vh 0.3vmin rgba(255, 255, 255, 0.8), 3vw 17vh 0.3vmin rgba(255, 255, 255, 0.8), 28vw 85vh 0.3vmin rgba(255, 255, 255, 0.8), 97vw 82vh 0.3vmin rgba(255, 255, 255, 0.8), 55vw 83vh 0.3vmin rgba(255, 255, 255, 0.8), 74vw 72vh 0.3vmin rgba(255, 255, 255, 0.8), 84vw 11vh 0.3vmin rgba(255, 255, 255, 0.8), 32vw 6vh 0.3vmin rgba(255, 255, 255, 0.8), 45vw 92vh 0.3vmin rgba(255, 255, 255, 0.8), 98vw 57vh 0.3vmin rgba(255, 255, 255, 0.8), 63vw 98vh 0.3vmin rgba(255, 255, 255, 0.8), 90vw 46vh 0.3vmin rgba(255, 255, 255, 0.8), 50vw 86vh 0.3vmin rgba(255, 255, 255, 0.8), 38vw 21vh 0.3vmin rgba(255, 255, 255, 0.8), 74vw 2vh 0.3vmin rgba(255, 255, 255, 0.8), 89vw 22vh 0.3vmin rgba(255, 255, 255, 0.8), 39vw 0vh 0.3vmin rgba(255, 255, 255, 0.8), 25vw 89vh 0.3vmin rgba(255, 255, 255, 0.8), 54vw 58vh 0.3vmin rgba(255, 255, 255, 0.8), 81vw 39vh 0.3vmin rgba(255, 255, 255, 0.8), 51vw 8vh 0.3vmin rgba(255, 255, 255, 0.8), 24vw 56vh 0.3vmin rgba(255, 255, 255, 0.8), 50vw 23vh 0.3vmin rgba(255, 255, 255, 0.8), 62vw 34vh 0.3vmin rgba(255, 255, 255, 0.8), 10vw 77vh 0.3vmin rgba(255, 255, 255, 0.8), 92vw 45vh 0.3vmin rgba(255, 255, 255, 0.8), 70vw 40vh 0.3vmin rgba(255, 255, 255, 0.8), 2vw 53vh 0.3vmin rgba(255, 255, 255, 0.8), 3vw 54vh 0.3vmin rgba(255, 255, 255, 0.8), 18vw 21vh 0.3vmin rgba(255, 255, 255, 0.8), 48vw 47vh 0.3vmin rgba(255, 255, 255, 0.8), 83vw 96vh 0.3vmin rgba(255, 255, 255, 0.8), 26vw 32vh 0.3vmin rgba(255, 255, 255, 0.8), 46vw 9vh 0.3vmin rgba(255, 255, 255, 0.8), 2vw 13vh 0.3vmin rgba(255, 255, 255, 0.8), 29vw 63vh 0.3vmin rgba(255, 255, 255, 0.8), 17vw 90vh 0.3vmin rgba(255, 255, 255, 0.8), 78vw 9vh 0.3vmin rgba(255, 255, 255, 0.8), 15vw 39vh 0.3vmin rgba(255, 255, 255, 0.8), 90vw 5vh 0.3vmin rgba(255, 255, 255, 0.8); }
-
-html::after {
-  box-shadow: 67vw 35vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 89vw 13vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 77vw 62vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 1vw 74vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 38vw 15vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 79vw 10vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 16vw 47vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 74vw 71vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 30vw 96vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 13vw 98vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 9vw 40vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 9vw 71vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 12vw 93vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 91vw 26vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 73vw 48vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 61vw 46vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 20vw 3vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 90vw 59vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 48vw 72vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8), 91vw 68vh 0.2vmin 0.1vmin rgba(255, 200, 200, 0.8); }
-
-body::before {
-  box-shadow: 30vw 90vh 0.2vmin rgba(190, 200, 255, 0.9), 93vw 64vh 0.2vmin rgba(190, 200, 255, 0.9), 75vw 80vh 0.2vmin rgba(190, 200, 255, 0.9), 37vw 24vh 0.2vmin rgba(190, 200, 255, 0.9), 83vw 58vh 0.2vmin rgba(190, 200, 255, 0.9), 12vw 36vh 0.2vmin rgba(190, 200, 255, 0.9), 62vw 82vh 0.2vmin rgba(190, 200, 255, 0.9), 87vw 91vh 0.2vmin rgba(190, 200, 255, 0.9), 9vw 2vh 0.2vmin rgba(190, 200, 255, 0.9), 99vw 46vh 0.2vmin rgba(190, 200, 255, 0.9), 39vw 86vh 0.2vmin rgba(190, 200, 255, 0.9), 48vw 42vh 0.2vmin rgba(190, 200, 255, 0.9), 53vw 24vh 0.2vmin rgba(190, 200, 255, 0.9), 63vw 42vh 0.2vmin rgba(190, 200, 255, 0.9), 2vw 53vh 0.2vmin rgba(190, 200, 255, 0.9), 67vw 11vh 0.2vmin rgba(190, 200, 255, 0.9), 32vw 44vh 0.2vmin rgba(190, 200, 255, 0.9), 0vw 82vh 0.2vmin rgba(190, 200, 255, 0.9), 51vw 47vh 0.2vmin rgba(190, 200, 255, 0.9), 74vw 30vh 0.2vmin rgba(190, 200, 255, 0.9); }
-
-body::after {
-  box-shadow: 80vw 64vh 0.1vmin rgba(200, 255, 230, 0.7), 32vw 45vh 0.1vmin rgba(200, 255, 230, 0.7), 65vw 62vh 0.1vmin rgba(200, 255, 230, 0.7), 22vw 55vh 0.1vmin rgba(200, 255, 230, 0.7), 68vw 19vh 0.1vmin rgba(200, 255, 230, 0.7), 54vw 34vh 0.1vmin rgba(200, 255, 230, 0.7), 1vw 56vh 0.1vmin rgba(200, 255, 230, 0.7), 95vw 1vh 0.1vmin rgba(200, 255, 230, 0.7), 60vw 93vh 0.1vmin rgba(200, 255, 230, 0.7), 14vw 82vh 0.1vmin rgba(200, 255, 230, 0.7), 6vw 64vh 0.1vmin rgba(200, 255, 230, 0.7), 19vw 12vh 0.1vmin rgba(200, 255, 230, 0.7), 25vw 39vh 0.1vmin rgba(200, 255, 230, 0.7), 21vw 36vh 0.1vmin rgba(200, 255, 230, 0.7), 4vw 10vh 0.1vmin rgba(200, 255, 230, 0.7), 85vw 70vh 0.1vmin rgba(200, 255, 230, 0.7), 54vw 93vh 0.1vmin rgba(200, 255, 230, 0.7), 9vw 46vh 0.1vmin rgba(200, 255, 230, 0.7), 63vw 59vh 0.1vmin rgba(200, 255, 230, 0.7), 48vw 28vh 0.1vmin rgba(200, 255, 230, 0.7); }
-
 .h1error {
-  margin: 0;
-  height: 12vmin;
-  width: 120vmin;
+  margin: auto;
+  height: 9vmin;
+  width: 90vmin;
   display: flex;
   justify-content: center;
   position: relative; }
 
-.h1error::before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  top: -26vmin;
-  left: 29vmin;
-  width: 62vmin;
-  height: 62vmin;
-  border-radius: 50%;
-  border: 1.3vmin solid currentColor;
-  box-sizing: border-box; }
-
+/*formato de letra 404*/
 em {
   font-family: 'Josefin Sans', sans-serif;
   color: currentColor;
@@ -304,35 +287,24 @@ em {
   width: 20vmin;
   text-align: center; }
 
-em.planet {
-  -webkit-animation: planet-rotate 4s linear infinite;
-  animation: planet-rotate 4s linear infinite;
+em.giro {
+  -webkit-animation: giro-rotate 7s linear infinite;
+  animation: giro-rotate 7s linear infinite;
   position: relative; }
 
-em.planet::before {
-  content: "";
-  position: absolute;
-  top: -.5vmin;
-  left: 3.5vmin;
-  z-index: -1;
-  width: 13vmin;
-  height: 13vmin;
-  border-radius: 50%;
-  background: black; }
-
-em.planet.left {
+em.giro.left {
   -webkit-transform-origin: 40vmin 5vmin;
   transform-origin: 40vmin 5vmin; }
 
-em.planet.right {
+em.giro.right {
   -webkit-transform-origin: -20vmin 5vmin;
   transform-origin: -20vmin 5vmin; }
 
-@-webkit-keyframes planet-rotate {
+@-webkit-keyframes giro-rotate {
   to {
     -webkit-transform: rotate(1turn); } }
 
-@keyframes planet-rotate {
+@keyframes giro-rotate {
   to {
     transform: rotate(1turn); } }
 
