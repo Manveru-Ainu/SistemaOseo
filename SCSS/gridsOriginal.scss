@@ -1,4 +1,9 @@
-// grid para maxilar
+// flexbox maxilar 1era parte
+#flexMax{
+    display: flex;
+    flex-direction: row-reverse;
+}
+// grid para maxilar 2da parte
 .maxParts{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -96,3 +101,4 @@
 #imgMand{
     grid-area: imgMand;
 }
+// grid Maxilar

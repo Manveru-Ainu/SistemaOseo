@@ -1,3 +1,7 @@
+#flexMax {
+  display: flex;
+  flex-direction: row-reverse; }
+
 .maxParts {
   display: grid;
   grid-template-columns: 1fr 1fr;
