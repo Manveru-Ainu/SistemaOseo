@@ -34,7 +34,7 @@
 #gifCraneo {
   grid-area: gifCraneo; }
 
-#gridFrontal {
+#gridMalar {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -43,10 +43,10 @@
 #gifMalar {
   grid-area: gifMalar; }
 
-.rightFront {
+.rightMalar {
   grid-area: rightFront; }
 
-#carrFront {
+#carrMalar {
   grid-area: carrFront; }
 
 .modalmask {
