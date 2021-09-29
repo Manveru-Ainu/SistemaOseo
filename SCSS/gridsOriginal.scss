@@ -59,4 +59,22 @@
 #carrMalar{
     grid-area: carrFront;
 }
+// grid hueso Frontal
+#gridFront{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "leftFront gifFront"
+    "imgFront imgFront";
+}
+.leftFront{
+    grid-area: leftFront;
+}
+.gifFront{
+    grid-area: gifFront;
+}
+#imgFront{
+    grid-area: imgFront;
+}
 
