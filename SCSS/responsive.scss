@@ -32,6 +32,29 @@
 #maxThree{
     grid-area: maxThree;
     }
+// grid para pagina Craneo
+.gridCraneo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "definicion objetivo"
+    "cranGen cranGen"
+    "gifCraneo gifCraneo";
+}
+#definicion{
+    grid-area: definicion;
+}
+#objetivo{
+    grid-area: objetivo;
+}
+#cranGen{
+    grid-area: cranGen;
+}
+#gifCraneo{
+    grid-area: gifCraneo;
+}
+
 }
 
 

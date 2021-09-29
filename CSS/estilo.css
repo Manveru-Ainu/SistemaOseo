@@ -16,6 +16,24 @@
 #maxThree {
   grid-area: maxThree; }
 
+.gridCraneo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "definicion objetivo" "cranGen gifCraneo"; }
+
+#definicion {
+  grid-area: definicion; }
+
+#objetivo {
+  grid-area: objetivo; }
+
+#cranGen {
+  grid-area: cranGen; }
+
+#gifCraneo {
+  grid-area: gifCraneo; }
+
 .modalmask {
   position: fixed;
   font-family: Papyrus, Arial, sans-serif;
@@ -131,12 +149,25 @@
   #maxTwo {
     grid-area: maxTwo; }
   #maxThree {
-    grid-area: maxThree; } }
+    grid-area: maxThree; }
+  .gridCraneo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "definicion objetivo" "cranGen cranGen" "gifCraneo gifCraneo"; }
+  #definicion {
+    grid-area: definicion; }
+  #objetivo {
+    grid-area: objetivo; }
+  #cranGen {
+    grid-area: cranGen; }
+  #gifCraneo {
+    grid-area: gifCraneo; } }
 
 /* Estilo para body y encabezamientos de todas las paginas*/
 body {
   background-color: #dff1f1;
-  font-family: Papyrus, Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat; }
@@ -178,11 +209,8 @@ div {
   width: 70%;
   text-align: center;
   margin: auto;
-  gap: 30px;
   border-style: none;
-  contain: center;
-  padding-top: 15px;
-  padding-bottom: 15px; }
+  contain: center; }
 
 /* Formato y hover de los parrafos (<p>)   */
 p {

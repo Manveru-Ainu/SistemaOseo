@@ -12,7 +12,7 @@ $hoverColor: #7aa0f9;
 /* Estilo para body y encabezamientos de todas las paginas*/
 body{
     background-color: $primaryColor;
-    font-family: Papyrus, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,11 +60,11 @@ div{
     width:70%;
     text-align: center;
     margin: auto;
-    gap: 30px;
+    // gap: 30px;
     border-style: none;
     contain: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    // padding-top: 15px;
+    // padding-bottom: 15px;
 }
 /* Formato y hover de los parrafos (<p>)   */
 p{
@@ -229,3 +229,4 @@ em.giro.right {
     width: 50%;
     margin: auto;
 }
+
