@@ -64,6 +64,22 @@
 #imgFront {
   grid-area: imgFront; }
 
+#gridMand {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "gifMand rightMan" "imgMand imgMand"; }
+
+#gifMand {
+  grid-area: gifMand; }
+
+.rightMan {
+  grid-area: rightMan;
+  padding-top: 20px; }
+
+#imgMand {
+  grid-area: imgMand; }
+
 .modalmask {
   position: fixed;
   font-family: Arial, sans-serif;
