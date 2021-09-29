@@ -41,3 +41,21 @@
 #gifCraneo{
     grid-area: gifCraneo;
 }
+#gridFrontal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "gifMalar rightFront "
+    "carrFront carrFront";
+}
+#gifMalar{
+    grid-area: gifMalar;
+}
+.rightFront{
+    grid-area: rightFront;
+}
+#carrFront{
+    grid-area: carrFront;
+}
+

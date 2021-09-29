@@ -34,15 +34,12 @@ h2{
 // formato y hover de los botones
 button{
     border-style: groove;
-    // padding-left: 20px;
-    // padding-right: 20px;
     background-color: $secondaryColor;
     margin: auto;
     text-align: center;
     row-gap: 10%;
     border-radius: 5%;
     text-align: wrap text;
-    // padding: auto; 
         &:hover{
         background-color: $hoverColor; 
         transform: scale(1.2, 1.2);         
@@ -60,11 +57,9 @@ div{
     width:70%;
     text-align: center;
     margin: auto;
-    // gap: 30px;
     border-style: none;
     contain: center;
-    // padding-top: 15px;
-    // padding-bottom: 15px;
+    
 }
 /* Formato y hover de los parrafos (<p>)   */
 p{

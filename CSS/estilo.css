@@ -34,9 +34,24 @@
 #gifCraneo {
   grid-area: gifCraneo; }
 
+#gridFrontal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "gifMalar rightFront " "carrFront carrFront"; }
+
+#gifMalar {
+  grid-area: gifMalar; }
+
+.rightFront {
+  grid-area: rightFront; }
+
+#carrFront {
+  grid-area: carrFront; }
+
 .modalmask {
   position: fixed;
-  font-family: Papyrus, Arial, sans-serif;
+  font-family: Arial, sans-serif;
   top: 0;
   right: 0;
   bottom: 0;
