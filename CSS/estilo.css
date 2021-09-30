@@ -92,6 +92,10 @@
   display: flex;
   flex-wrap: row; }
 
+.boxPar {
+  display: flex;
+  flex-direction: row; }
+
 .modalmask {
   position: fixed;
   font-family: Arial, sans-serif;
