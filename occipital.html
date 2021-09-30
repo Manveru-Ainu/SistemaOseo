@@ -13,14 +13,36 @@
     <body class="container">
     <!-- Aqui va el titulo de la pagina -->
         <header>
-            <h1>Anatomia Osea del Craneo</h1>
+            <h1 id="inicioOcc">Anatomia Osea del Craneo</h1>
         </header>
     <!-- Aqui esta el tema de la pagina     -->
         <div>
             <h2>Occipital</h2>
-            <a href="./page404.html">404</a>
         </div>
+        <!-- Menu desplegable -->
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+        </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Seccion</a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./cigomatico.html">Cigomatico</a></li>
+                <li><a class="dropdown-item" href="./frontal.html">Frontal</a></li>
+                <li><a class="dropdown-item" href="./mandibular.html">Mandibular</a></li>
+                <li><a class="dropdown-item" href="./maxilar.html">Maxilar</a></li>
+                <li><a class="dropdown-item" href="./occipital.html">Occipital</a></li>
+                <li><a class="dropdown-item" href="./parietal.html">Parietal</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="page404.html">Sobre Nosotros</a></li>
+    </ul>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./contacto.html">Contacto</a>
+        </li>
+    </ul>
     <!-- esta imagen es el gif de la pagina -->
+    <main class="boxOcc">  
         <div>
             <img src="./Assets/occipital_gif.gif" class="img-thumbnail" alt="Hueso Occipital girando">
         </div>
@@ -30,10 +52,11 @@
             <h3><a href="#modal2">Composición</a></h3>
             <h3><a href="#modal3">Función</a></h3>
         </ul>
+        </main>
         <div id="modal1" class="modalmask">
             <div class="modalbox movedown">
                 <h3 class="genOcc">Generalidades</h3>
-                <p>El <strong>occipital</strong> es un hueso impar del cráneo, con articulaciones y suturas importantes a nivel craneal. Esta porción forma parte de la articulación esfenobasilar del cráneo junto al cuerpo del esfenoides.</p>
+                El <strong>occipital</strong> es un hueso impar del cráneo, con articulaciones y suturas importantes a nivel craneal. Esta porción forma parte de la articulación esfenobasilar del cráneo junto al cuerpo del esfenoides.<br>
                 <a href="#close" title="Close" class="close"><button>Entendido</button></a>
             </div>
         </div>
@@ -41,7 +64,7 @@
         <div id="modal2" class="modalmask">
             <div class="modalbox rotate">
                 <h3 class="comOcc">Composición</h3>
-                <p>Es cóncavo en su cara interna y convexo en su cara externa. ... Porción escamosa, situada por encima y posterior del <strong>agujero occipital</strong>. Porción basilar, situada en la zona anterior del agujero.</p>
+                Es cóncavo en su cara interna y convexo en su cara externa. ... Porción escamosa, situada por encima y posterior del <strong>agujero occipital</strong>. Porción basilar, situada en la zona anterior del agujero.<br>
                 <a href="#close" title="Close" class="close"><button>Entendido</button></a>
             </div>
         </div>
@@ -49,7 +72,7 @@
         <div id="modal3" class="modalmask">
             <div class="modalbox resize">
                 <h3 class="funOcc">Función</h3>
-                <p>El <strong>hueso occipital</strong> es un elemento óseo de forma marcadamente cóncava y localizado en la nuca. Su función es la de proteger, de nuevo, el tronco del encéfalo.</p>
+                El <strong>hueso occipital</strong> es un elemento óseo de forma marcadamente cóncava y localizado en la nuca. Su función es la de proteger, de nuevo, el tronco del encéfalo.<br>
                 <a href="#close" title="Close" class="close"><button>Entendido</button></a>
             </div>
         </div>
@@ -58,29 +81,11 @@
             <h3>Vistas y partes del hueso Occipital</h3>
             <img src="http://www.monografias.com/trabajos82/huesos-del-neuroccraneo/image003.jpg" class="img-thumbnail" alt="Vista interior y suoperior del hueso occipital">
         </div> 
-    <!-- aqui se agrega el menu desplegable para navegar entre paginas -->
-        <nav>
-            <div class="dropdown">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                    Click para elegir el hueso
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><a href="./cigomatico.html"><button class="dropdown-item" type="button">Cigomatico</button></a></li>
-                    <li><a href="./frontal.html"><button class="dropdown-item" type="button">Frontal</button></a></li>
-                    <li><a href="./mandibular.html"><button class="dropdown-item" type="button">Mandibular</button></a></li>
-                    <li><a href="./maxilar.html"><button class="dropdown-item" type="button">Maxilar</button></a></li>
-                    <li><a href="./nasal.html"><button class="dropdown-item" type="button">Nasal</button></a></li>
-                    <li><a href="./parietal.html"><button class="dropdown-item" type="button">Parietal</button></a></li>
-                </ul>
-            </div>
-        </nav>
 
-    <!-- Aqui va la navegacion a inicio, contacto y pagina externa -->
-        <footer>
-            <a href="./index.html"><button>Inicio</button></a>
-            <a href="https://es-la.facebook.com/"><button>Sonre Nosotros</button></a>
-            <a href="./contacto.html"><button>Contacto</button></a>
-        </footer>
+<!-- Aqui va la navegacion a inicio, contacto y pagina externa -->  
+<footer><button><a href="#inicioOcc">Pagina arriba</a></button><br>
+    Developed by <a href="https://www.facebook.com/"><img src="./Assets/logo.jpeg" alt="logotipo NaArS"></a>
+    </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>

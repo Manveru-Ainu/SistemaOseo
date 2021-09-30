@@ -1,6 +1,6 @@
 #flexMax {
   display: flex;
-  flex-direction: row-reverse; }
+  flex-direction: row; }
 
 .maxParts {
   display: grid;
@@ -87,6 +87,10 @@
 .boxNasal {
   display: flex;
   flex-direction: row; }
+
+.boxOcc {
+  display: flex;
+  flex-wrap: row; }
 
 .modalmask {
   position: fixed;

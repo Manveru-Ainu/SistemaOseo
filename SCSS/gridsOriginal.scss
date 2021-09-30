@@ -1,7 +1,7 @@
 // flexbox maxilar 1era parte
 #flexMax{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 // grid para maxilar 2da parte
 .maxParts{
@@ -25,7 +25,7 @@
 #maxThree{
     grid-area: maxThree;
 }
-// grid para pagina Craneo
+// grid para pagina de Inicio
 .gridCraneo{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -106,4 +106,8 @@
     display: flex;
     flex-direction: row;
     
+}
+.boxOcc{
+    display: flex;
+    flex-wrap: row;
 }
