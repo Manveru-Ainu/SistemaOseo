@@ -296,12 +296,6 @@ button {
     background-color: #7aa0f9;
     transform: scale(1.2, 1.2); }
 
-/* Estilos para la barra de navegacion entre paginas*/
-.navbar-collapse {
-  margin: auto;
-  text-align: center;
-  border-radius: 50%; }
-
 /* formato para los div */
 div {
   width: 70%;
@@ -450,11 +444,11 @@ em.giro.right {
   100% {
     margin-left: -100%; } }
 
-#imgContacto {
-  background-image: url(../Assets/craneo-separado.jpeg);
-  background-position: center;
-  background-size: contain; }
-
 .navbar {
   width: 50%;
   margin: auto; }
+
+main {
+  margin: auto;
+  text-align: center;
+  width: 90%; }
